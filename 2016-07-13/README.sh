@@ -7,7 +7,9 @@
 #Files representing raw paired-end reads: runII.1.fasta.gz(forward), runII.2.fasta.gz(reverse)
 #present in the directory together with .txt file barcode
 
-sabre pe -m 1 -c -f runII.1.fasta.gz -r runII.2.fasta.gz -b barcode.txt -u unknown_barcode1.fasta -w unknown_barcode2.fasta
+if [ ! -e Er51_436_1.fastq ]; then
+   sabre pe -m 1 -c -f runII.1.fasta.gz -r runII.2.fasta.gz -b barcode.txt -u unknown_barcode1.fasta -w unknown_barcode2.fasta
+fi
 
 #Options:
 #sabre (pe) pair-end reads,
