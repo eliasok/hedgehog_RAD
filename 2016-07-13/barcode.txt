@@ -1,0 +1,26 @@
+CGCGC   Er51_436_1.fastq        Er51_436_2.fastq
+CGGCG   Er52_451_1.fastq        Er52_451_2.fastq
+CGTAT   Er53_ASR7_1.fastq       Er53_ASR7_2.fastq
+CTAGG   Er54_AU1_1.fastq        Er54_AU1_2.fastq
+CTCTT   Er55_AU7_1.fastq        Er55_AU7_2.fastq
+CTTCC   Er56_AZ5_1.fastq        Er56_AZ5_2.fastq
+GAAGC   Er57_COR4_1.fastq       Er57_COR4_2.fastq
+GACTA   Er58_FI7_1.fastq        Er58_FI7_2.fastq
+GAGAT   Er59_FR1_1.fastq        Er59_FR1_2.fastq
+GATCG   Er60_GR5_1.fastq        Er60_GR5_2.fastq
+GCATT   Er61_GR87_1.fastq       Er61_GR87_2.fastq
+GCCGG   Er62_GR95_1.fastq       Er62_GR95_2.fastq
+GCGCC   Er63_IR6_1.fastq        Er63_IR6_2.fastq
+GCTAA   Er64_IS1_1.fastq        Er64_IS1_2.fastq
+GGAAG   Er65_IS25_1.fastq       Er65_IS25_2.fastq
+GGCCT   Er66_IT3_1.fastq        Er66_IT3_2.fastq
+GGGGA   Er67_IT5_1.fastq        Er67_IT5_2.fastq
+GGTTC   Er68_PRT1B_1.fastq      Er68_PRT1B_2.fastq
+GTACA   Er69_R2_1.fastq         Er69_R2_2.fastq
+GTCAC   Er70_RMN42_1.fastq      Er70_RMN42_2.fastq
+GTGTG   Er71_SAR2_1.fastq       Er71_SAR2_2.fastq
+GTTGT   Er72_SIE1B_1.fastq      Er72_SIE1B_2.fastq
+TAATG   Er73_SNG1_1.fastq       Er73_SNG1_2.fastq
+TACGT   Er74_SP16_1.fastq       Er74_SP16_2.fastq
+TAGCA   Er75_TRC2A_1.fastq      Er75_TRC2A_2.fastq
+
