@@ -27,4 +27,4 @@ fi
 #
 #Checking quality of reads and detection of overrepresent sequences using FastQC
 
-if [ ! -d fastqc ]; then    mkdir fastqc;    fastqc -o fastqc -f fastq Er*_*.fastq.gz ; fi
+if [ ! -d fastqc ]; then   mkdir fastqc;   fastqc -o fastqc -f fastq Er*_*.fastq.gz ; fi
