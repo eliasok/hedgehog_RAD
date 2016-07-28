@@ -22,4 +22,7 @@ sabre pe -m 1 -c -f runII.1.fasta.gz -r runII.2.fasta.gz -b barcode.txt -u unkno
 #from python script hamm.py assessing minimum distance
 #between words(five letters barcodes).
 #Script finished run with minimum distance between words = 3.
+#
+#Checking quality of reads and detection of overrepresent sequences using FastQC
 
+if [ ! -d fastqc ]; then    mkdir fastqc;    fastqc -o fastqc -f fastq Er*_*.fastq.gz ; fi
