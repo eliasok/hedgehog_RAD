@@ -2,9 +2,9 @@
 #
 #2016-08-04
 #
-#Trimming overrepresented sequences identified by FastQC belonging to Illumina primers.
+#Trimming overrepresented sequences identified by FastQC as belonging to Illumina primers.
 #
-#File adaptersII.fasta representing two sequences of Illumina primer as identified by FastQC.
+#File adaptersII.fasta represents two sequences of Illumina primers as identified by FastQC.
 
 SAMPLE=(Er51_436
 Er52_451
