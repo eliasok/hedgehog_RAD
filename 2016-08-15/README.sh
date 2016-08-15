@@ -2,8 +2,8 @@
 #
 #2016-08-15
 #
-#Mapping reads to the reference genome EriEur2 (http://pre.ensembl.org/Erinaceus_europaeus/Info/Index) using Bowtie2 
-#in very sensitive mode
+#Mapping reads to the reference genome EriEur2 (http://pre.ensembl.org/Erinaceus_europaeus
+#/Info/Index) using Bowtie2 in very sensitive mode
 
 SAMPLE=(Er51_436
 Er52_451
@@ -57,6 +57,7 @@ wait
 #--fr mates align forward/reverse
 #--no mixed suppress unpaired alignments for paired reads
 #--un-conc write pairs that didn't align concordantly
-#--rg flag, SAM header -id, type, date, sample name (SM, necessary if using FreeBayes as a variant detector in the next step)
+#--rg flag, SAM header -id, type, date, sample name (SM, necessary if using FreeBayes
+#as a variant detector in the next step)
 #--S standard output, .sam and send protocol about alignment to .log
 
