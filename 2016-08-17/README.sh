@@ -3,13 +3,13 @@
 #2016-08-17
 #
 #Using SAMtools to view (converting SAM to BAM), sort (sorting reads by their location in genome) 
-#and index (indexing a previously sorted bam file) mapped reads (see shell scripts) to prepare them 
-#for variant calling process. 
-#A necessary step at this point is filtering out cytochrom sequences using SAMtools view once more. 
-#
-#When NC_002080.2 is a name of cytochrome sequence I will cat all headers @SQ with defined 
-#C(name)and L(lenght) and paste them to z1 file. Then I will remove mitochondrial sequence name out of it 
-#and use the z1 file to show me all sequences contains everything apart of mtch sequence.
+#and index (indexing a previously sorted bam file) mapped reads (see shell scripts) to prepare 
+#them for variant calling process. 
+#A necessary step at this point is filtering out mitochondrial sequences using SAMtools view 
+#once more. When NC_002080.2 is a name of cytochrome sequence I will concatenate all headers @SQ 
+#with defined C(name)and L(lenght) and paste them to z1 file. Then I will remove NC_002080.2
+#name out of list and use z1 file to show me all sequences contains everything apart of mtch sequence.
+#Then I will index sorted nuclear sequences.
 
 samtools view -H Er51_436_sorted.bam | grep "@SQ" | gawk '{C=substr($2,4); L=substr($3,4); print C "\t" 1 "\t" L}' > z1
 
