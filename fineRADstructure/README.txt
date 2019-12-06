@@ -18,4 +18,6 @@ finestructure -m T -x 10000 populations.haps_chunks.out populations_chunks.mcmc.
 # The results were visualized in RStudio using provided script FineRADstructurePlot.R
 #
 # Important: necessary to modify original R script and set up "maxIndv" and "maxPop" to more then 1000 (I choose 100000)
-
+#
+# To plot the results of fineRADstructure I used R script of Milan Malinsky
+# available here: https://github.com/millanek/fineRADstructure/blob/master/fineRADstructurePlot.R
