@@ -1,0 +1,21 @@
+Er76_Ch8f	7
+Er77_Ch18f	7
+Er80_Ch23	1
+Er81_Ch44	7
+Er86_Tv1302	1
+Er87_Tv161	1
+Er88_PTZ092	7
+Er93_ZBS073	7
+Er95_ZBS104	1
+Er97_ZBS1015	7
+Er98_ZBS103.111	7
+Er99_ZBS122	7
+Er102_ZBS1675	7
+Er103_ZBSTvE8	1
+Er106_NGE1	1
+Er107_Kos27	1
+Er109_NVB	7
+Er115_VortsaE12	7
+
+# 1 = E. europaeus
+# 7 = hybrid roumanicus/europeaus

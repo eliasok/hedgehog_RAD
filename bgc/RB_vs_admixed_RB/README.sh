@@ -4,7 +4,7 @@
 # time only for individuals in Russian-Baltic
 # contact zone. I will use similar filtering strategy
 # as with Bayescan and the same subset of individuals as with
-# bayescan. I will Ignasi R scripts plot_chains.R and plot_scores.R and plot_summary.R
+# bayescan.
 
 # here a took popmaps from latest bayescan directory and merged them
 # and delete hybrids from first file because they were doubled.
