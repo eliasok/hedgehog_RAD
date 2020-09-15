@@ -1,6 +1,6 @@
 # Script to count ABBA/BABA sites across bat genome using modified script of Simon Martin,
 # available here: https://github.com/simonhmartin/genomics_general
-# a known phylogeny of Pipistrellus genus is (((concolor)(roumanicus))(europaeus))
+# a known phylogeny of Erinaceus genus is (((concolor)(roumanicus))(europaeus))
 # an input file was created using script freq2.awk made by Ignasi. It uses allele frequencies
 # for specified populations and also uses only variable sites where
 # outgroup (Hemiechinus) is fixed for the ancestral allele.
